@@ -92,7 +92,7 @@ static long FindVectMult(Point dot1,Point dot2,Point dot3)
     }
    static void CreateImahe() throws IOException {
     int w = 960;
-    int h = 560;
+    int h = 540;
     BufferedImage image = new BufferedImage(w, h, ColorSpace.TYPE_RGB);
     Graphics2D graphics = image.createGraphics();
        Graphics graphic = image.createGraphics();
