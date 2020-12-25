@@ -172,7 +172,7 @@ public class Photo extends JFrame {
             }
 
         }
-        File outFile = new File("lab3_image.png");
+        File outFile = new File("lab4_image.png");
         ImageIO.write(image, "png", outFile);
 
     }
